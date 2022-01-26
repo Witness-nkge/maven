@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('C:\jupyter-notebook-d85baee\maven\maven_logo_2.png')
+image = Image.open('maven_logo_2.png')
 
 st.image(image)
 st.title('Maven')
